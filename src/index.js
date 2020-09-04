@@ -9,23 +9,36 @@ const puppetter = require('puppeteer');
     await page.goto('https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx');
     await page.waitForSelector('div')
 
-    //await page.focus('#cboEmpresa')
-    //await page.keyboard.type('Hello')
-    
-    const Label = await page.$$("label[for='rdPeriodo']")
+    await page.focus('#cboEmpresa')
+    await page.keyboard.type('Ambev')
+
     await page.$eval('input#rdPeriodo', elem => elem.click())
+
+    await page.focus('input#txtDataIni')
+    await page.keyboard.type('01/01/2010')
+
+    await page.focus('input#txtHoraIni')
+    await page.keyboard.type('23:59')
+
+    await page.focus('input#txtDataFim')
+    await page.keyboard.type('01/01/2010')
+
+    await page.focus('input#txtHoraFim')
+    await page.keyboard.type('23:59')
+  
+
+    await page.focus('input#cboCategoria_chosen_input')
+    await page.keyboard.type('ITR')
+    await page.keyboard.press('Enter')
+
+
+   await browser.close()
     
-    console.log(Label.length)
 
 
     console.log('Finish')
 
 })()
-/*
-const Label = await page.$$('input#rdPeriodo')
-await click(Label)
-await page.$eval('input#rdPeriodo')
-console.log(Label)
-*/
+
 
 // This is work page.click('input#rdPeriodo')
