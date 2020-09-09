@@ -1,0 +1,91 @@
+
+[{
+        id:{
+            type: String,
+            default: '1'
+        },
+        value: Number
+    }],
+
+    Ativo_Total: 
+    Ativo_circulante: 
+    Caixa_e_Equivalentes_de_Caixa: 
+    Aplicacoes_Financeiras :
+    Aplicacoes_Financeiras_Avaliadas_a_Valor_Justo_atraves_do_Resultado: 
+    Titulos_para_Negociacao:
+    Titulos_Designados_a_Valor_Justo:
+    Aplicacoes_Financeiras_Avaliadas_a_Valor_Justo_atraves_de_Outros_Resultados_Abrangentes: 
+    Aplicacoes_Financeiras_Avaliadas_ao_Custo_Amortizado: 
+    Contas_a_Receber: 	
+    Clientes:
+    Outras_Contas_a_Receber:
+    Contas_a_Receber_de_Partes_Relacionadas: 	
+    Estoques:
+    Produto_Acabado: 	
+    Produto_em_Elaboracao: 	
+    Materias_Primas: 
+    Materiais_de_Producao: 		
+    Almoxarifado_e_Outros: 
+    Provisão_para_Perdas:	
+    Ativos_Biologicos: 	
+    Tributos_a_Recuperar: 	
+    Tributos_Correntes_a_Recuperar: 	    
+    Imposto_de_renda_e_Contribuicao_Social_a_Recuperar: 	
+    Impostos_Indiretos_a_Recuperar: 	
+    Despesas_Antecipadas: 	
+    Despesas_Antecipadas_Marketing: 	
+    Outras_Despesas_Antecipadas: 
+    Outros_Ativos_Circulantes: 	
+    Ativos_Nao_Correntes_a_Venda: 	
+    Ativos_de_Operacoes_Descontinuadas: 	
+    Outros: 
+    Instrumentos_Financeiros_Derivativos:
+    Juros_a_Receber: 	
+    Outros_Ativos:	
+    Dividendos_a_Receber: 	
+    Ativo_Não_Circulante:	
+    Ativo_Realizavel_a_Longo_Prazo: 	
+    Aplicacoes_Financeiras_Avaliadas_a_Valor_Justo_atraves_do_Resultado: 
+    Titulos_Designados_a_Valor_Justo: 		
+    Aplicacoes_Financeiras_Avaliadas_a_Valor_Justo_atraves_de_Outros_Resultados_Abrangentes: 	
+    Aplicacoes_Financeiras_Avaliadas_ao_Custo_Amortizado: 	
+    Titulos_Mantidos_ate_o_Vencimento: 
+    Contas_a_Receber: 
+    Clientes: 	
+    Outras_Contas_a_Receber:
+    Estoques: 
+    Ativos_Biologicos: 	
+    Tributos_Diferidos: 
+    Imposto_de_Renda_e_Contribuicao_Social_Diferidos: 	
+    Despesas_Antecipadas:
+    Creditos_com_Partes_Relacionadas: 
+    Creditos_com_Coligadas: 
+    Creditos_com_Controladores:
+    Creditos_com_Outras_Partes_Relacionadas:
+    Outros_Ativos_Nao_Circulantes:	
+    Ativos_Nao_Correntes_a_Venda: 	
+    Ativos_de_Operacoes_Descontinuadas:
+    Depositos_Judiciais_Compulsorios_e_de_Incentivos:
+    Imposto_de_Renda_e_Contribuicao_Social_a_Recuperar:
+    Demais_impostos_a_recuperar:
+    Superavit_de_Ativos:  
+    Instrumentos_Financeiros_Derivativos:
+    Titulos_a_Receber:
+    Outros:
+    Investimentos:
+    Participações_Societarias:
+    Participações_em_Coligadas:
+    Participações_em_Controladas_em_Conjunto:
+    Outros_Investimentos:
+    Propriedades_para_Investimento:
+    Imobilizado:
+    Imobilizado_em_Operacao:
+    Direito_de_Uso_em_Arrendamento: 
+    Imobilizado_em_Andamento:
+    Intangivel: 
+    Intangiveis: 
+    Contrato_de_Concessão: 
+    Outros_Intangiveis: 
+    Agio:
+    Goodwill: 
+
