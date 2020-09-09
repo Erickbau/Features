@@ -12,6 +12,8 @@ function sleep(ms) {
     await page.goto('https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx');
     await page.waitForSelector('div')
 
+    await sleep(3000)
+
     await page.$eval('#cboEmpresa', elem => elem.click())
     await page.focus('#cboEmpresa')
     await page.keyboard.type('023264')
@@ -35,26 +37,25 @@ function sleep(ms) {
   
 
     await page.focus('input#cboCategoria_chosen_input')
-    try{
-        await page.keyboard.type('ITR', {delay: 100})
-        await page.keyboard.press('Enter')
-    }catch(err){console.log(err)}
+   
+    await page.keyboard.type('ITR')
+    await sleep(1000)
+    await page.keyboard.press('Enter')
+  
 
     await page.$eval('input#btnConsulta', elem => elem.click())
 
-    await sleep(5000)
+    await sleep(2000)
 
-    const TR = await page.$$('tbody i#VisualizarDocumento')
-    
-    console.log(TR.length)
-    
+    const listHandle = await page.evaluateHandle(
+    () => document.getElementById('VisualizarDocumento').
+    getAttribute('onClick')
+    );  
 
-    //await browser.close()
+   // await browser.close()
     
-    
+    console.log(listHandle.jsonValue())
     console.log('Finish')
     
 })()
 
-
-// This is work page.click('input#rdPeriodo')
